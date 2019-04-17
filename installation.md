@@ -59,12 +59,12 @@ Main PID: 10951 (odoo)
 CGroup: /system.slice/odoo.service
 └─10951 /usr/bin/python3 /usr/bin/odoo --config /etc/odoo/odoo.conf --logfile /var/log/odoo/odoo-server.log
 ```
-*Odoo 12** est bien installé sur votre machine, maintenant nous allons modifier le mot de passe administration :<br> (Si la commande n'est pas reconnue, faites : ```apt-get install nano```)
+*Odoo 12** est bien installé sur votre machine, maintenant nous allons modifiez le mot de passe administration :<br> (Si la commande n'est pas reconnue, faites : ```apt-get install nano```)
 ```
 nano /etc/odoo/odoo.conf
 ```
-Maintenant modifier la ligne ```admin_passwd = StrongPassword```, par votre mot de passe.
-Après ceci, relancer **Odoo 12** :
+Maintenant modifiez la ligne ```admin_passwd = StrongPassword```, par votre mot de passe.
+Après ceci, relancez **Odoo 12** :
 ```
 systemctl restart odoo
 ```
