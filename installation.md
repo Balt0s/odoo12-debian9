@@ -54,7 +54,7 @@ Et normalement, votre vps doit vous donner : (Plus ou moins)
 ```
 ● odoo.service - Odoo Open Source ERP and CRM
 Loaded: loaded (/lib/systemd/system/odoo.service; enabled; vendor preset: enabled)
-Active: active (running) since Wed 2018-10-10 10:59:04 CDT; 4s ago
+Active: active (running) since Wed 2019-01-01 10:00:00 CDT; 1s ago
 Main PID: 10951 (odoo)
 CGroup: /system.slice/odoo.service
 └─10951 /usr/bin/python3 /usr/bin/odoo --config /etc/odoo/odoo.conf --logfile /var/log/odoo/odoo-server.log
