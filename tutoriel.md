@@ -70,5 +70,5 @@ systemctl restart odoo
 ```
 
 ### 4. Connecter vous à Odoo
-**Odoo 12** est maintenant disponible au port **8069**. (Exemple: 62.42.197.229:**8069**).
+**Odoo 12** est maintenant disponible sur le port **8069**. (Exemple: 62.42.197.229:**8069**).
 
